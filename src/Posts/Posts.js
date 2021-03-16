@@ -7,6 +7,10 @@ import CardActions from '@material-ui/core/CardActions';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import axios from "axios";
 
+//TODO Enable favourite icon to add to favourites for users profile
+//TODO Search bar, by title, author
+
+
 const Posts = (props) => {
     const [posts, setPosts] = useState([])
 
